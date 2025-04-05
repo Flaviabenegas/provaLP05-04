@@ -7,10 +7,11 @@ int main() {
 
     for (int i = 0; i < n; i++) {
         printf("%d/%d\n", numerador, denominador);
+        soma += numerador / (double)denominador;
         numerador += 2;
         denominador += 1;
-        printf("%d/%d\n", numerador, denominador);
-        soma += numerador / (double)denominador;
+
+
 
 
     }
