@@ -10,7 +10,7 @@ int main() {
         numerador += 2;
         denominador += 1;
         printf("%d/%d\n", numerador, denominador);
-        soma += numerador / (double)denominador;#include <stdio.h>
+        soma += numerador / (double)denominador;
 
 
     }
